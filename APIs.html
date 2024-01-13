@@ -111,7 +111,12 @@
                                         }]
                                     });
                                 } else {
-                                    alert('Please enter a valid email address.');
+                                    Swal.fire({
+                                        title: "Error",
+                                        text: "Please enter a valid email address.",
+                                        icon: "error",
+                                        confirmButtonText: "Okay."
+                                    })
                                     return false;
                                 }
                             },
