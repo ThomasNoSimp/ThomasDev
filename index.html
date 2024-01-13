@@ -14,7 +14,41 @@
     <style>
         body {
             padding-top: 56px;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background: url('background.jpeg') fixed;
+            background-size: cover;
+            animation: gradientAnimation 15s ease infinite;
         }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .navbar {
+            background-color: transparent !important; /* Transparent Navbar */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        /* Add any additional styles as needed */
+
     </style>
 </head>
 
@@ -48,7 +82,7 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container mt-5">
+    <div class="container">
 
         <!-- Services Section -->
         <section id="services">
