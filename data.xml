@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data readonly="true">
+    <Services readonly="true">
+        <Front-end>
+            <Service_Name>Front-end Development</Service_Name>
+            <Price>$30</Price>
+        </Front-end>
+        <Back-end>
+            <Service_Name>Back-end Development</Service_Name>
+            <Price>$60</Price>
+        </Back-end>
+        <Roblox-Scripting>
+            <Service_Name>Roblox Scripting</Service_Name>
+            <Price>$120</Price>
+        </Roblox-Scripting>
+        <APIs>
+            <Service_Name>APIs</Service_Name>
+            <Price>$100</Price>
+        </APIs>
+    </Services>
+</Data>
